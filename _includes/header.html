@@ -4,17 +4,18 @@
 			<a href="">Azamin Islam</a>
 		</div>
 		<nav>
-			<div>
-				<ul>
-					<li><a href="index.html">Home</a></li>
+			<ul>
+				<li><a href="index.html">Home</a></li>
 
-					<li><a href="">Skills</a></li>
+				<!-- <li><a href="#skills">Skills</a></li>
 
-					<li><a href="">Projects</a></li>
+				<li><a href="#projects">Projects</a></li>
 
-					<li><a href="">Contact</a></li>
-				</ul>
-			</div>
+				<li><a href="#contact">Contact</a></li> -->
+				{% for nav in site.data.portfolio.navigation %}
+					<li><a href="{{ nav.url }}">{{ nav.name }}</a></li>
+				{% endfor %}
+			</ul>
 		</nav>
 	</div>
 </header>

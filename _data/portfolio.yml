@@ -1,0 +1,19 @@
+
+
+
+
+#navigation items
+navigation:
+-  {name: Skills, url: '#skills'}
+-  {name: Projects, url: '#pjojects'}
+-  {name: Contact, url: '#contact'}
+
+#skills 
+skills:
+- {name: C, value: '7'}
+- {name: Java, value: '5'}
+- {name: Python, value: '4'}
+- {name: PHP, value: '5'}
+- {name: Web Development, value: '6'}
+- {name: Communication, value: '8'}
+

@@ -13,57 +13,30 @@
 		<p>Currently I am studying at Jawaharlal Nehru Technological University Anantapur<a href="http://jntua.ac.in/">(JNTUA)</a> in Computer Science & Engineering.</p>
 	</div>
 
-	<h3>Skills I Have</h3>
+	<h3 id="skills">Skills I Have</h3>
 
 	<div class="skill-lockup">
 
-		<div class="skill-unit">
-			<div class="skill-label">C</div>
-			<div class="skill-icons skill-7">
-				<span></span><span></span><span></span><span></span><span></span><span></span>
-				<span></span><span></span><span></span><span></span><span></span><span></span>
-			</div>
-		</div>
-
-		<div class="skill-unit">
-			<div class="skill-label">Java</div>
-			<div class="skill-icons skill-5">
-				<span></span><span></span><span></span><span></span><span></span><span></span>
-				<span></span><span></span><span></span><span></span><span></span><span></span>
-			</div>
-		</div>
-
-		<div class="skill-unit">
-			<div class="skill-label">Python</div>
-			<div class="skill-icons skill-4">
-				<span></span><span></span><span></span><span></span><span></span><span></span>
-				<span></span><span></span><span></span><span></span><span></span><span></span>
-			</div>
-		</div>
-
-		<div class="skill-unit">
-			<div class="skill-label">PHP</div>
-			<div class="skill-icons skill-5">
-				<span></span><span></span><span></span><span></span><span></span><span></span>
-				<span></span><span></span><span></span><span></span><span></span><span></span>
-			</div>
-		</div>
-
-		<div class="skill-unit">
-			<div class="skill-label">Web Development</div>
-			<div class="skill-icons skill-7">
-				<span></span><span></span><span></span><span></span><span></span><span></span>
-				<span></span><span></span><span></span><span></span><span></span><span></span>
-			</div>
-		</div>
-
-		<div class="skill-unit">
+		<!-- we can do this for every skill or use a for loop parsing skills -->
+		<!-- <div class="skill-unit">
 			<div class="skill-label">Communication</div>
 			<div class="skill-icons skill-8">
 				<span></span><span></span><span></span><span></span><span></span><span></span>
 				<span></span><span></span><span></span><span></span><span></span><span></span>
 			</div>
-		</div>
+		</div>  -->
+
+		{% for skill in site.data.portfolio.skills %}
+
+			<div class="skill-unit">
+				<div class="skill-label">{{ skill.name }}</div>
+				<div class="skill-icons skill-{{ skill.value }}">
+					<span></span><span></span><span></span><span></span><span></span>
+					<span></span><span></span><span></span><span></span><span></span>
+				</div>
+			</div>
+
+		{% endfor %}
 
 	</div>
 </section>
