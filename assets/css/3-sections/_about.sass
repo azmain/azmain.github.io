@@ -1,9 +1,14 @@
 .about
+	//height: 100vh
+	margin-top: 120px
+	background: #f2f2f2
+
 	h3
 		@extend %small-bold
 		color: $accent
 		text-align: center
-		margin-top: 50px
+		//margin-top: 50px
+		padding-bottom: 10px
 
 	.face-lockup
 		height: 250px
@@ -18,60 +23,13 @@
 			margin-top: 30px
 
 	.history
-		max-width: 700px
+		max-width: 720px
 		margin: 30px auto
 		font-size: 20px
 		text-align: center
 		font-weight: 300
 
 
-	.skill-lockup
-		max-width: 700px
-		font-size: 20px
-		margin: 50px auto
-		color: #0b59e0
-		+clearfix
-
-		.skill-unit
-			width: 350px
-			float: left
-			text-align: center
-
-		.skill-icons
-			font-size: 0
-			margin-top: 10px
-			margin-bottom: 30px
-
-			span
-				display: inline-block
-				+size(18px)
-				background-color: #02db05
-				margin-right: 2px
-				border-radius: 50%
-
-				&:after
-					content: ''
-					display: block
-					+size(12px)
-					background: #fff
-					border-radius: 50%
-					margin: 1px
-
-			
-
-			@for $i from 1 through 10
-				&.skill-#{$i} span:nth-child(n+#{$i+1})
-					@extend %skill-color
-
-
-@media screen and (max-width: 731px)
-	.skill-lockup
-		width: 350px
-		text-align: center
-
-
-%skill-color
-	background: #8d9b98
 
 
 

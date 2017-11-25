@@ -1,0 +1,17 @@
+<section class="contact">
+	<div class="container">
+		<h3 id="contact">Be &nbsp; Social</h3>
+
+		<div class="social-links">
+			{% for link in site.data.portfolio.social %}
+			<a target="_blank" href="{{ link.link }}" class="icon-{{ link.name }}"></a>
+			{% endfor %}
+		</div>
+
+		<hr class="bar">
+
+		<div class="mail">
+			<a href="mailto:{{ site.author_email }}" class="mail">{{ site.author_email }}</a>
+		</div>
+	</div>
+</section>

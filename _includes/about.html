@@ -1,42 +1,19 @@
-<section class="container about">
+<section class="about">
 	
-	<h3>About Myself</h3>
+	<div class="container">
+		<h3 id="about">About &nbsp; Myself</h3>
 
-	<div class="face-lockup">
-		<img class="face-img" src="assets/img/nishan.jpg">
+		<div class="face-lockup">
+			<img class="face-img" src="assets/img/nishan.jpg">
+		</div>
+
+		<div class="history">
+			<p class="lead"><mark>Hi, I'm Nishan.<mark></p>
+			<p>(`-`)</p>
+			<p>Student. Foodie. Traveller. Dreamer.</p>
+			<p>Currently I am studying at Jawaharlal Nehru Technological University Anantapur<a href="http://jntua.ac.in/">(JNTUA)</a> in Computer Science & Engineering.</p>
+			
+		</div>
 	</div>
-
-	<div class="history">
-		<p class="lead"><mark>Hi, I'm Nishan.<mark></p>
-		<p>(`-`)</p>
-		<p>Student. Foodie. Traveller. Dreamer.</p>
-		<p>Currently I am studying at Jawaharlal Nehru Technological University Anantapur<a href="http://jntua.ac.in/">(JNTUA)</a> in Computer Science & Engineering.</p>
-	</div>
-
-	<h3 id="skills">Skills I Have</h3>
-
-	<div class="skill-lockup">
-
-		<!-- we can do this for every skill or use a for loop parsing skills -->
-		<!-- <div class="skill-unit">
-			<div class="skill-label">Communication</div>
-			<div class="skill-icons skill-8">
-				<span></span><span></span><span></span><span></span><span></span><span></span>
-				<span></span><span></span><span></span><span></span><span></span><span></span>
-			</div>
-		</div>  -->
-
-		{% for skill in site.data.portfolio.skills %}
-
-			<div class="skill-unit">
-				<div class="skill-label">{{ skill.name }}</div>
-				<div class="skill-icons skill-{{ skill.value }}">
-					<span></span><span></span><span></span><span></span><span></span>
-					<span></span><span></span><span></span><span></span><span></span>
-				</div>
-			</div>
-
-		{% endfor %}
-
-	</div>
+	
 </section>

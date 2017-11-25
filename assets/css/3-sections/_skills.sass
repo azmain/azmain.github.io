@@ -1,0 +1,63 @@
+.skills
+	background: #e8e8e8
+
+	h3
+		@extend %small-bold
+		color: $accent
+		text-align: center
+		margin-top: 50px
+
+	.skill-lockup
+		max-width: 720px
+		font-size: 20px
+		margin: 50px auto
+		color: #0b59e0
+		+clearfix
+
+		.skill-unit
+			width: 50%
+			float: left
+			text-align: center
+
+		.skill-icons
+			font-size: 0
+			margin-top: 10px
+			margin-bottom: 30px
+
+			span
+				display: inline-block
+				+size(18px)
+				background-color: #02db05
+				margin-right: 2px
+				border-radius: 50%
+
+				&:after
+					content: ''
+					display: block
+					+size(12px)
+					background: #fff
+					border-radius: 50%
+					margin: 1px
+
+			
+
+			@for $i from 1 through 10
+				&.skill-#{$i} span:nth-child(n+#{$i+1})
+					@extend %skill-color
+
+
+@media screen and (max-width: 500px)
+	.skills
+		.skill-lockup
+			max-width: 500px
+			margin: 50px auto
+			+clearfix
+
+			.skill-unit
+				width: 100%
+				margin: auto
+				text-align: center
+
+
+%skill-color
+	background: #8d9b98

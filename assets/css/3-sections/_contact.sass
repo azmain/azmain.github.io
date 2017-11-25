@@ -1,0 +1,57 @@
+.contact
+	background: #a1a7af
+	text-align: center
+
+	h3
+		@extend %small-bold
+		padding-top: 10px
+		color: $accent
+
+	.social-links
+		max-width: 700px
+		margin: 0 auto 10px
+		+display(flex)
+		+justify-content(space-around)
+		+flex-wrap(wrap)
+
+		a
+			display: block
+			background: #a3caff
+			+size(50px)
+			
+			line-height: 50px
+			color: white
+			border-radius: 50%
+			font-size: 30px
+			margin: 20px
+			+transition()
+
+			&:hover
+				+transform(scale(1.2))
+				text-decoration: none
+
+
+	.bar
+		max-width: 400px
+		height: 2px
+		border-top: 7px solid $accent
+		padding-bottom: 0px
+
+	.mail
+		//max-width: 400px
+		display: inline-block
+		font:
+			size: 45px
+			weight: 300
+		line-height: 1
+		margin: auto
+		padding-bottom: 10px
+
+
+@media screen and (max-width: 600px)
+	.contact
+		.mail
+			font:
+				size: 20px
+			
+				
