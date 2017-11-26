@@ -7,7 +7,7 @@ navigation:
 -  {name: About, url: '#about'}
 -  {name: Skills, url: '#skills'}
 -  {name: Contact, url: '#contact'}
--  {name: Works, url: '#works'}
+-  {name: Works, url: 'work/'}
 
 
 #skills 
@@ -28,3 +28,10 @@ social:
   - {name: 'instagram', link: 'https://www.instagram.com/azmainnishan'}
   - {name: 'twitter', link: 'https://twitter.com/azmain_nishan'}
   - {name: 'youtube', link: 'https://www.youtube.com/channel/UC7ndsRdIssC6I30PjSN2L6g'}
+
+
+#work
+work:
+  - {name: Home, url: '/index.html'}
+  - {name: Projects, url: '#skills'}
+  - {name: Contact, url: '#contact'}
