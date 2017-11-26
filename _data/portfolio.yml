@@ -32,6 +32,6 @@ social:
 
 #work
 work:
-  - {name: Home, url: '{{ site.url }}'}
+  - {name: Home, url: '/' }
   - {name: Projects, url: '#skills'}
   - {name: Contact, url: '#contact'}
