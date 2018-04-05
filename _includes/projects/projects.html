@@ -1,0 +1,31 @@
+<section class="projects">
+	<div class="container">
+		<h3 id="projects">Projects &nbsp; Worked &nbsp; On</h3>
+
+		
+
+		<div class="container">
+			<div class="row">
+
+			{% for project in site.data.projects.projects %}
+
+				<div class="col-md-4 d-flex align-items-stretch">
+					<div class="card">
+						<div class="zoom">
+							<img class="card-img-top img-fluid" src="{{ project.img }}" alt="{{ project.title }}">
+						</div>
+						<div class="card-body">
+							<h4 class="card-title">{{ project.title}}</h4>
+							<p class="card-text scroll-box">{{ project.text }}</p>
+							<a href="{{ project.link }}" class="btn btn-primary">{{ project.go}}</a>
+						</div>
+					</div>
+				</div>
+
+			{% endfor %}
+
+			</div>
+		</div>
+		
+	</div>
+</section>

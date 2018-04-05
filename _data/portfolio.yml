@@ -7,7 +7,7 @@ navigation:
 -  {name: About, url: '#about'}
 -  {name: Skills, url: '#skills'}
 -  {name: Contact, url: '#contact'}
--  {name: Works, url: 'work/'}
+-  {name: Projects, url: 'projects/'}
 
 
 #skills 
@@ -33,5 +33,6 @@ social:
 #work
 work:
   - {name: Home, url: '/' }
-  - {name: Projects, url: '#skills'}
+  - {name: Projects, url: '#projects'}
+  - {name: Others, url: '../others/'}
   - {name: Contact, url: '#contact'}

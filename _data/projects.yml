@@ -1,0 +1,23 @@
+
+
+projects:
+  - { 
+      img: '../assets/img/cc.jpg',
+      title: 'Court Counter',
+      text: 'This is an android app which keeps track of basketball scores for two teams.
+           It was the beginning of learning android programming in Android Studio.',
+      link: 'https://github.com/azmain/CourtCounterApp',
+      go: 'Github'
+    }
+  - {
+      img: '../assets/img/planets.jpg', 
+      title: 'Planets App', 
+      text: 'This is an android app which lists out the planets name in sidebar. 
+            By clicking the name on sidebar the picture of the planet changes.
+            The search button takes us to google search for the selected planet.', 
+      link: 'https://github.com/azmain/Planet-App',
+      go: 'Github'
+    }
+
+
+
