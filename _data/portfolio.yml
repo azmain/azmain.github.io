@@ -12,11 +12,11 @@ navigation:
 
 #skills 
 skills:
-- {name: C, value: '7'}
-- {name: Java, value: '5'}
-- {name: Python, value: '4'}
-- {name: PHP, value: '5'}
-- {name: Web Development, value: '6'}
+- {name: Web Development, value: '7'}
+- {name: Android, value: '5'}
+- {name: Machine Learning, value: '5'}
+- {name: Networking, value: '4'}
+- {name: Extra-Curricular, value: '10'}
 - {name: Communication, value: '8'}
 
 
