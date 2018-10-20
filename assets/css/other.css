@@ -1,0 +1,18 @@
+#other{
+    height: 100vh;
+    background-image: url("../img/nishan.jpg");
+}
+
+.navbar-light .navbar-nav .active>.nav-link{
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: rgb(204, 0, 255);
+}
+
+.nav-link{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}

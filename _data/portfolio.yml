@@ -7,7 +7,7 @@ navigation:
 -  {name: About, url: '#about'}
 -  {name: Skills, url: '#skills'}
 -  {name: Contact, url: '#contact'}
--  {name: Projects, url: 'projects/'}
+-  {name: Others, url: 'others/'}
 
 
 #skills 

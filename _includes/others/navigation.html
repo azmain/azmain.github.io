@@ -1,0 +1,25 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+    <div class="container">
+        <a class="navbar-brand" href="{{ site.baseurl }}">Azmain Islam</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                {% for nav in site.data.other.navigation %}
+                {% if page.url contains nav.url and nav.url != '/' %}
+                <li class="nav-item active">
+                    <a class="nav-link" href="{{ nav.url }}">{{ nav.name }} <span class="sr-only">(current)</span></a>
+                </li>
+                {% else %}
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ nav.url }}">{{ nav.name }}</a>
+                </li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</nav>
