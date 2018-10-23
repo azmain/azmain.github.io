@@ -1,24 +1,28 @@
 {
-    "navigation": [
-        {
-            "url": "/",
-            "name": "Home"
-        },
-        {
-            "url": "/others",
-            "name": "Index"
-        },
-        {
-            "url": "/projects",
-            "name": "Projects"
-        },
-        {
-            "url": "/travels",
-            "name": "Travels"
-        },
-        {
-            "url": "/blog",
-            "name": "Blog"
-        }
-    ]
+  "navigation": [
+    {
+      "url": "/",
+      "name": "Home"
+    },
+    {
+      "url": "/others",
+      "name": "Index"
+    },
+    {
+      "url": "/projects",
+      "name": "Projects"
+    },
+    {
+      "url": "/travels",
+      "name": "Travels"
+    },
+    {
+      "url": "/blog",
+      "name": "Blog"
+    },
+    {
+      "url": "#contact",
+      "name": "Contact"
+    }
+  ]
 }

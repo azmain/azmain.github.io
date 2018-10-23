@@ -4,11 +4,11 @@
 }
 
 .navbar-light .navbar-nav .active>.nav-link{
-    color: white;
+    color: #00ccbe;
 }
 
 .navbar-light .navbar-nav .nav-link:hover{
-    color: rgb(204, 0, 255);
+    color: #00ccbe;
 }
 
 .nav-link{

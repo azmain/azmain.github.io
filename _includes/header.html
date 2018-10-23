@@ -6,7 +6,7 @@
 		<nav>
 			<ul>
 				{% for nav in site.data.portfolio.navigation %}
-					<li><a href="{{ nav.url }}">{{ nav.name }}</a></li>
+				<li><a href="{{ nav.url }}" id="{{ nav.name }}">{{ nav.name }}</a></li>
 				{% endfor %}
 			</ul>
 		</nav>

@@ -1,38 +1,35 @@
-
-
-
-
 #navigation items
 navigation:
--  {name: About, url: '#about'}
--  {name: Skills, url: '#skills'}
--  {name: Contact, url: '#contact'}
--  {name: Others, url: 'others/'}
+  - { name: About, url: "#about" }
+  - { name: Skills, url: "#skills" }
+  - { name: Projects, url: "#project" }
+  - { name: Contact, url: "#contact" }
+  - { name: Others, url: "others/" }
 
-
-#skills 
+  #skills
 skills:
-- {name: Web Development, value: '7'}
-- {name: Android, value: '5'}
-- {name: Machine Learning, value: '5'}
-- {name: Networking, value: '4'}
-- {name: Extra-Curricular, value: '10'}
-- {name: Communication, value: '8'}
+  - { name: Web Development, value: "7" }
+  - { name: Android, value: "5" }
+  - { name: Machine Learning, value: "5" }
+  - { name: Networking, value: "4" }
+  - { name: Extra-Curricular, value: "10" }
+  - { name: Communication, value: "8" }
 
-
-#social-links
+  #social-links
 social:
-  - {name: 'facebook', link: 'https://www.facebook.com/azmain.nishan'}
-  - {name: 'linkedin', link: 'https://www.linkedin.com/in/azmain-nishan'}
-  - {name: 'github', link: 'https://github.com/azmain'}
-  - {name: 'instagram', link: 'https://www.instagram.com/azmainnishan'}
-  - {name: 'twitter', link: 'https://twitter.com/azmain_nishan'}
-  - {name: 'youtube', link: 'https://www.youtube.com/channel/UC7ndsRdIssC6I30PjSN2L6g'}
-
+  - { name: "facebook", link: "https://www.facebook.com/azmain.nishan" }
+  - { name: "linkedin", link: "https://www.linkedin.com/in/azmain-nishan" }
+  - { name: "github", link: "https://github.com/azmain" }
+  - { name: "instagram", link: "https://www.instagram.com/azmainnishan" }
+  - { name: "twitter", link: "https://twitter.com/azmain_nishan" }
+  - {
+      name: "youtube",
+      link: "https://www.youtube.com/channel/UC7ndsRdIssC6I30PjSN2L6g",
+    }
 
 #work
 work:
-  - {name: Home, url: '/' }
-  - {name: Projects, url: '#projects'}
-  - {name: Others, url: '../others/'}
-  - {name: Contact, url: '#contact'}
+  - { name: Home, url: "/" }
+  - { name: Projects, url: "#projects" }
+  - { name: Others, url: "../others/" }
+  - { name: Contact, url: "#contact" }
