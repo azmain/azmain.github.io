@@ -1,0 +1,37 @@
+{
+  "about": [
+    {
+      "first": [
+        "I have graduated from Jawaharlal Nehru Technological ",
+        "University Anantapur<a href='http: //jntua.ac.in/'>(JNTUA)</a> ",
+        "in Computer Science & Engineering in May,2018."
+      ],
+      "second": [
+        "Since June,2018 I am working as a Junior Software Engineer in Optimal Track Automation ",
+        "& Engineering(OTAE Bangladesh Ltd.)"
+      ],
+      "third": [
+        "Here I am working with a small team to develop a web application ",
+        "using PHP language. The PHP framework we use here is CakePHP. I work on the backend ",
+        "as well as frontend part. I have experience of working with Html, Css, Ajax & Javascript. ",
+        "I also have experience to build REST Api in cakePHP using Basic Authentication and ",
+        "manage the CORS(preflight OPTIONS request). I built the menu manager here using ",
+        "the tree behaviour which is common to store hierarchical data in a database table."
+      ],
+      "forth": [
+        "I love to code to solve problems. As the most important skill ",
+        "in programming is logic, I think logically to ",
+        "break a problem down and simplyfying them. ",
+        "I spend much time in thinking rather than just dive into coding. ",
+        "Another quality I have that relates to programming is patients which is very ",
+        "important while debugging an error. "
+      ],
+      "fifth": [
+        "Having solid foundation on SDLC, OOP, Algorithms & Data Structures, ",
+        "I continuously seek out new techniques, strive for a more performant ",
+        "and better-organized architecture, and develop more effective ways to ",
+        "write clean and reusable code."
+      ]
+    }
+  ]
+}

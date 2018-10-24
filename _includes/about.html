@@ -9,22 +9,18 @@
 
 		<div class="history">
 			<p class="lead"><mark id="greet"><mark></p>
-			<p><mark>(`-`)</mark></p>
-			<p>Student. Foodie. Traveller. Dreamer.</p>
-			<p>Currently I am studying at Jawaharlal Nehru Technological University Anantapur<a href="http://jntua.ac.in/">(JNTUA)</a>
-				in Computer Science & Engineering.</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In enim doloribus sequi quasi totam beatae saepe ullam
-				reiciendis ex natus porro qui aut exercitationem cum illum, hic obcaecati dolorem mollitia.
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam alias dolores esse dignissimos aliquid quos quod
-				quibusdam voluptatibus nulla mollitia rerum quaerat consectetur quis, iste quia, consequatur minima maiores
-				necessitatibus.
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sed saepe atque maxime vel et quae, nemo
-				quas suscipit quasi ut quisquam recusandae deleniti voluptas numquam odit? Earum, dolore culpa!
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore nisi, sed ab consequatur qui dolore ad. Pariatur,
-				voluptate voluptates reprehenderit optio error omnis ex facere illo sunt eum molestias quas.
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dicta dolores repellat, autem molestias delectus
-				provident accusantium dolorem, ab quis error, quidem facere magnam. Eligendi illo odit reiciendis eaque quas.
+			<p>
+				<i class="fas fa-smile" style="font-size:48px;color:#f7ff00;background-color: black; border-radius: 60px;">
+				</i>
 			</p>
+			<p>Student. Foodie. Traveller. Dreamer.</p>
+			{% for data in site.data.about.about %}
+			<p>{{ data.first }}</p>
+			<p>{{ data.second }}<br>{{ data.third }}</p>
+			<p>{{ data.forth }}</p>
+			<p>{{ data.fifth }}</p>
+
+			{% endfor %}
 		</div>
 	</div>
 
