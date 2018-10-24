@@ -5,13 +5,8 @@
 		</div>
 		<nav>
 			<ul>
-				<!-- <li><a href="index.html">Home</a></li> -->
-				<!-- <li><a href="#skills">Skills</a></li>
-				<li><a href="#projects">Projects</a></li>
-				<li><a href="#contact">Contact</a></li> -->
-				
 				{% for nav in site.data.portfolio.navigation %}
-					<li><a href="{{ nav.url }}">{{ nav.name }}</a></li>
+				<li><a href="{{ nav.url }}" id="{{ nav.name }}">{{ nav.name }}</a></li>
 				{% endfor %}
 			</ul>
 		</nav>

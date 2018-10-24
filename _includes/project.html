@@ -1,0 +1,25 @@
+<section class="project" class="content-section text-center">
+
+    <div class="container">
+        <h3 id="project">Projects</h3>
+
+        <div class="project-lockup">
+            <ul>
+                {% for project in site.data.projects.projects %}
+                <li style="list-style: none;">
+                    <h5 class="text-left">
+                        <a href="{{ project.link }}">
+                            <i class="fa fa-chevron-right" style="margin-right: 30px;" aria-hidden="true"></i>
+                            {{ project.title }}
+                        </a>
+                    </h5>
+                    <p class="text-left">
+                        {{ project.text }}
+                    </p>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+
+</section>

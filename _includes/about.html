@@ -1,5 +1,5 @@
 <section class="about">
-	
+
 	<div class="container">
 		<h3 id="about">About &nbsp; Myself</h3>
 
@@ -8,12 +8,20 @@
 		</div>
 
 		<div class="history">
-			<p class="lead"><mark>Hi, I'm Nishan.<mark></p>
-			<p>(`-`)</p>
+			<p class="lead"><mark id="greet"><mark></p>
+			<p>
+				<i class="fas fa-smile" style="font-size:48px;color:#f7ff00;background-color: black; border-radius: 60px;">
+				</i>
+			</p>
 			<p>Student. Foodie. Traveller. Dreamer.</p>
-			<p>Currently I am studying at Jawaharlal Nehru Technological University Anantapur<a href="http://jntua.ac.in/">(JNTUA)</a> in Computer Science & Engineering.</p>
-			
+			{% for data in site.data.about.about %}
+			<p>{{ data.first }}</p>
+			<p>{{ data.second }}<br>{{ data.third }}</p>
+			<p>{{ data.forth }}</p>
+			<p>{{ data.fifth }}</p>
+
+			{% endfor %}
 		</div>
 	</div>
-	
+
 </section>

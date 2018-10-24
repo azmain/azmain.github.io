@@ -42,3 +42,5 @@ exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffe
 sass:
   sass_dir: assets/css
   style: :nested
+
+theme: minima
