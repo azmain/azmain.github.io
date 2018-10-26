@@ -1,23 +1,39 @@
-
-
 projects:
-  - { 
-      img: '../assets/img/cc.jpg',
-      title: 'Court Counter',
-      text: 'This is an android app which keeps track of basketball scores for two teams.
-           It was the beginning of learning android programming in Android Studio.',
-      link: 'https://github.com/azmain/CourtCounterApp',
-      go: 'Github'
+  - {
+      title: "Text Classification Using Neural Network",
+      text:
+        "Final year project of my undergraduate degree. It's a web portal where a user
+        can write down his/her disease symptoms. And it will show which disease it matches most
+        and few medicines according to that disease. Five categories of disease are used in this
+        project.",
+      link: "https://github.com/azmain/Text-Classification-Using-Neural-Network",
+      go: "Github",
     }
   - {
-      img: '../assets/img/planets.jpg', 
-      title: 'Planets App', 
-      text: 'This is an android app which lists out the planets name in sidebar. 
-            By clicking the name on sidebar the picture of the planet changes.
-            The search button takes us to google search for the selected planet.', 
-      link: 'https://github.com/azmain/Planet-App',
-      go: 'Github'
+      title: "Student Enrollment System For Affiliated Colleges of JNTUA",
+      text: "Jawaharlal Nehru Technological University Anantapur has more than
+        100 affliated colleges under it's admisistration. JNTUA Administration needs
+        to maintain all the affliated colleges & their student admissions. It
+        was a demo project to showcase how students enrollment system for the affliated
+        colleges can be done easily through a website.",
+      link: "https://github.com/azmain/ucs",
+      go: "Github",
     }
-
-
-
+  - {
+      img: "../assets/img/planets.jpg",
+      title: "Planets Information App",
+      text: "This is an android app which lists out the planets name in sidebar.
+        By clicking the name on sidebar the picture of the planet changes.
+        The search button takes us to google search for the selected planet.",
+      link: "https://github.com/azmain/Planet-App",
+      go: "Github",
+    }
+  - {
+      img: "../assets/img/cc.jpg",
+      title: "Basketball Court Counter App",
+      text:
+        "This is an android app which keeps track of basketball scores for two teams.
+        It was the beginning of learning android programming in Android Studio.",
+      link: "https://github.com/azmain/CourtCounterApp",
+      go: "Github",
+    }
