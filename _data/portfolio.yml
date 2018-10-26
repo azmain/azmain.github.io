@@ -3,8 +3,9 @@ navigation:
   - { name: About, url: "#about" }
   - { name: Skills, url: "#skills" }
   - { name: Projects, url: "#project" }
+  - { name: Resume, url: "#resume" }
   - { name: Contact, url: "#contact" }
-  - { name: Others, url: "others/" }
+  - { name: Blog, url: "blog/" }
 
   #skills
 skills:
