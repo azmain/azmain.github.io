@@ -1,0 +1,12 @@
+<section class="menu">
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        {% for menu in site.data.menus.topics %}
+        <a href="{{ menu.url }}">{{ menu.name }}</a>
+        {% endfor %}
+    </div>
+
+    <div class="container" id="menu">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+    </div>
+</section>
