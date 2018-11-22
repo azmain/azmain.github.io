@@ -1,65 +1,52 @@
----
-title: Azmain Islam
----
 <!DOCTYPE html>
-<html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <title>{{ page.title }}</title>
-  <!-- Bootstrap -->
-  <link rel="shortcut icon" href="{{ site.url }}/assets/img/favicon.ico" style="border-radius: 50px" />
-  <link rel="stylesheet" href="{{ site.url }}/assets/css/main.css">
-  <link rel="stylesheet" href="{{ site.url }}/assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="{{ site.url }}/assets/css/home.css">
-  <link rel="stylesheet" href="{{ site.url }}/assets/css/font-awesome.css">
+  {%- include head.html -%}
 
+  <body>
 
-  <style>
-    .navbar{
-	    margin-bottom: 0;
-	    border-radius: 0;
-    }
-    .active{
-      color: #00ccbe;
-    }
-  </style>
-</head>
+    {%- include post-menu.html -%}
 
-<body>
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
 
-  <div class="admin">
+    {%- include footer.html -%}
 
-    {{ content }}
+    <!-- Floating Buttons(start) -->
+    <a href="#header" class="float" style="position:fixed; width:50px; height:50px;
+                                    bottom:40px; right:40px; background-color:#0C9;
+	                                color:#FFF; border-radius:40px; text-align:center;
+	                                box-shadow: 2px 2px 3px #999;"
+                                >
+        <i class="fa fa-arrow-up my-float" style="margin-top:18px;"></i>
+    </a>
 
-  </div>
+    <a href="{{ site.url }}/blog" class="float" style="position:fixed; width:50px; height:50px;
+                                    bottom:100px; right:40px; background-color:#0C9;
+	                                color:#FFF; border-radius:40px; text-align:center;
+	                                box-shadow: 2px 2px 3px #999;"
+                                >
+        <i class="fa fa-arrow-left my-float" style="margin-top:18px;"></i>
+    </a>
+    <!-- Floating Buttons(end) -->
 
-
-  <script type="text/javascript" src="{{ site.url }}/assets/js/jquery-3.3.1.min.js"></script>
-  <script type="text/javascript" src="{{ site.url }}/assets/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="{{ site.url }}/assets/js/function.js"></script>
-  <script type="text/javascript" src="{{ site.url }}/assets/js/typed.js"></script>
+  </body>
   <script>
-    $(document).ready(function () {
-      /* Typing Animation */
-      var options = {
-        strings: ["",
-          "<strong>Hi! I'm Nishan.</strong>",
-          "Have a Nice Day!"
-        ],
-        typeSpeed: 40,
-        smartBackspace: true,
-        backDelay: 2000,
-        loop: true,
-        loopCount: Infinity,
-      }
-      var typed = new Typed("#greet", options);
+        $(document).ready(function () {
+            console.log("hi");
 
-    });
-  </script>
-</body>
+
+        });
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
 
 </html>

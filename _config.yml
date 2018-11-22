@@ -1,6 +1,11 @@
 # Name of your blog (this will show up at the top of your page and in the RSS feed)
 name: Azmain Islam
 
+email: azmainnishan@gmail.com
+github_username:  azmain
+facebook_username: azmain.nishan
+linkedin_username: azmain-nishan
+
 # Short description (goes below the title; it will also be used in the RSS feed)
 description: This is a sample Portfolio Page.
 
@@ -28,7 +33,8 @@ url: https://azmain.github.io/
 # Use rdiscount as the markdown engine because it generates html5 compliant code for stuff like footnotes
 # If you use maroku (default engine) some of your generated pages may not validate or lint as html5
 # If you don't have it install it via gem install rdiscount
-markdown: redcarpet
+#markdown: redcarpet
+markdown: kramdown
 
 # Makes pretty (descriptive) permalinks. See Jekyll docs for alternatives.
 permalink: pretty
@@ -44,3 +50,19 @@ sass:
   style: :nested
 
 theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+
+# Custom variables
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      footerright: "Thank you for reading my post. I appretiate your valuable time. 
+                    Feel free to contact me for quiries."

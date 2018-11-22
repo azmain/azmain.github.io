@@ -1,0 +1,88 @@
+<section class="content container" style="padding:20px;">
+  <div>
+
+    <!-- Programming -->
+    <div class="row programming">
+      <div class="col-md-8">
+        <h3 id="list-programming">Programming</h3>
+        <div class="jumbotron">
+          <div class="list-group">
+            {% for post in site.categories.programming %}
+            <a href="{{ post.url }}" class="list-group-item list-group-item-action list-group-item-primary">
+              {{ post.title }}
+            </a>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <br><br>
+        <div class="jumbotron">
+          <blockquote class="blockquote">
+            <p class="mb-0">
+            Programming is Thinking,
+            Not Typing.
+            </p>
+            <footer class="blockquote-footer">Casey Patton</footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+
+    <!-- Travel -->
+    <div class="row travel">
+      <div class="col-md-8">
+        <h3 id="list-travel">Travel</h3>
+        <div class="jumbotron">
+          <div class="list-group">
+            {% for post in site.categories.travel %}
+            <a href="{{ post.url }}" class="list-group-item list-group-item-action list-group-item-primary">
+              {{ post.title }}
+            </a>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <br><br>
+        <div class="jumbotron">
+          <blockquote class="blockquote">
+            <p class="mb-0">
+            Travel makes one modest. You see what a tiny place you occupy in the world.
+            </p>
+            <footer class="blockquote-footer">Gustav Flaubert</footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+
+    <!-- Self Thought -->
+    <div class="row travel">
+      <div class="col-md-8">
+        <h3 id="self-thought">Thoughts</h3>
+        <div class="jumbotron">
+          <div class="list-group">
+            {% for post in site.categories.thoughts %}
+            <a href="{{ post.url }}" class="list-group-item list-group-item-action list-group-item-primary">
+              {{ post.title }}
+            </a>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <br><br>
+        <div class="jumbotron">
+          <blockquote class="blockquote">
+            <p class="mb-0">
+            The universe doesn't give you what you ask for with your
+            thoughts; it gives you what you demand with your actions.
+            </p>
+            <footer class="blockquote-footer">Dr. Steve Maraboli</footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
