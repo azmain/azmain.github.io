@@ -1,0 +1,62 @@
+body {
+  font-family: "Muli", avenir, "helvetica neue", helvetica, ubuntu, roboto, noto,
+    "segoe ui", arial, sans-serif;
+}
+
+#menu {
+  margin-top: 20px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #0a1922;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #f9f9f9;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #a3caff;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* For SVG Icon In Footer */
+.svg-icon {
+    width: 20px;
+    height: 16px;
+    display: inline-block;
+    fill: #828282;
+    padding-right: 0px;
+    vertical-align: text-top;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  .sidenav a {
+    font-size: 18px;
+  }
+}
