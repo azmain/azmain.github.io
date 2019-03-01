@@ -95,3 +95,18 @@ git merge branch1
     and your changes in branch2
 
 ---
+
+
+#### <center> Want To Change The Remote Url </center>
+
+<hr>
+Sometimes you might mistakenly add wrong remote url or you want to change the remote url
+
+```
+git remote set-url origin https://new-url.com
+```
+
+> - will change the remote url of origin
+
+---
+
